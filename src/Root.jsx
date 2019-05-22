@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import 'core-js/features/promise';
@@ -35,9 +34,5 @@ class Root extends React.Component {
     );
   }
 }
-
-Root.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
 
 export default Root;
